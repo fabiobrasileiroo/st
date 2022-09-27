@@ -6,8 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font = "Inconsolata:pixelsize=22:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "Inconsolata:pixelsize=21:antialias=true:autohint=true";
+static char *font2[] = { "NotoColorEmoji:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 8;
 
 /*
@@ -29,7 +29,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.14;
+static float chscale = 1.19;
 
 /*
  * word delimiter string
@@ -96,7 +96,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.83;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
