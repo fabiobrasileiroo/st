@@ -6,9 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-static char *font = "Inconsolata:pixelsize=21:antialias=true:autohint=true";
+static char *font = "agave Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:pixelsize=18:antialias=true:autohint=true" };
-static int borderpx = 8;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
